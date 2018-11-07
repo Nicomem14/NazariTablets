@@ -1,0 +1,40 @@
+page-home {
+    $background-color: #848486;
+    $background-md-color: #848486;
+
+    .img-ctg{
+        height: 400px;
+        width: 255px;
+    }
+
+    .padding-banner {
+        padding-bottom: 80px;
+    }
+
+    .ctg-gallery-img-style{
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+    .ctg-gallery-img-text>div{
+        width: 255px;
+        position: relative;
+        bottom:65px;
+        padding:20px 20px;
+        opacity:0.8;
+        background: #848486; /* Old browsers */
+        background: -moz-linear-gradient(top, #848486 0%, #aeaeb0 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #848486 0%,#aeaeb0 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #848486 0%,#aeaeb0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#848486', endColorstr='#aeaeb0',GradientType=0 ); /* IE6-9 */
+    }
+
+    .ctg-gallery-img-text>h6{
+        width: 255px;
+        text-align: center;
+        position: relative;
+        bottom:113px;
+        color: white;
+        font-size: 20px;
+    }    
+}
